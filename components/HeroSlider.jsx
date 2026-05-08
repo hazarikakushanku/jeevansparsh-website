@@ -55,7 +55,7 @@ export default function HeroSlider() {
           <button
             key={idx}
             onClick={() => setCurrentIndex(idx)}
-            className={`h-2 rounded-full transition-all duration-300 ${idx === currentIndex ? "bg-rehab-yellow w-6" : "bg-white/50 w-2 hover:bg-white/80"
+            className={`h-2 rounded-full transition-all duration-300 ${idx === currentIndex ? "bg-jeevansparsh-yellow w-6" : "bg-white/50 w-2 hover:bg-white/80"
               }`}
             aria-label={`Go to slide ${idx + 1}`}
           />

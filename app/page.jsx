@@ -70,7 +70,7 @@ export default function Home() {
     <div className="w-full">
       <NoticeBanner />
       {/* Hero Section */}
-      <section ref={heroRef} className="relative bg-jeevansparsh-blue text-white overflow-hidden py-24 sm:py-32 px-4 sm:px-6 lg:px-12 min-h-[600px] h-screen max-h-[900px] flex items-center">
+      <section ref={heroRef} className="relative bg-jeevansparsh-blue text-white overflow-hidden py-24 sm:py-32 px-4 sm:px-6 lg:px-12 min-h-screen lg:h-screen lg:max-h-[900px] flex items-center">
         {/* Deep blue gradient background */}
         <div className="absolute inset-0 bg-gradient-to-br from-jeevansparsh-blue via-jeevansparsh-blue/95 to-blue-900 z-0 pointer-events-none"></div>
 
@@ -100,8 +100,8 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="hidden lg:flex hero-content relative justify-end items-center">
-            <div className="w-2/3 max-w-sm relative">
+          <div className="flex hero-content relative justify-center lg:justify-end items-center mt-8 lg:mt-0 w-full">
+            <div className="w-full max-w-[280px] sm:max-w-sm relative">
               <div className="absolute -inset-4 bg-jeevansparsh-yellow/20 blur-3xl rounded-full"></div>
               <div className="relative aspect-square rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-sm p-4">
                 <HeroSlider />
