@@ -31,8 +31,8 @@ export default function Navbar() {
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-2 sm:py-3" : "bg-jeevansparsh-blue text-white py-3 sm:py-5"}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className={`w-10 h-10 rounded-xl overflow-hidden flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform`}>
-            <img src="/logo.jpg" alt="Jeevansparsh Logo" className="w-full h-full object-cover" />
+          <div className={`p-2 rounded-lg ${scrolled ? "bg-jeevansparsh-blue text-white" : "bg-white/10 text-rehab-yellow"} group-hover:scale-105 transition-transform`}>
+            <Activity size={24} />
           </div>
           <span className={`text-lg sm:text-2xl font-bold tracking-tight ${scrolled ? "text-jeevansparsh-blue" : "text-white"}`}>Jeevansparsh</span>
         </Link>
