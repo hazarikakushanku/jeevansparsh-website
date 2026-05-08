@@ -34,8 +34,8 @@ export default function Register() {
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4 sm:p-6 py-24">
       <div className="max-w-md w-full bg-white rounded-3xl shadow-xl p-6 sm:p-10 border border-gray-100">
         <div className="flex justify-center mb-8">
-          <div className="w-14 h-14 sm:w-16 sm:h-16 bg-black rounded-full flex items-center justify-center overflow-hidden border shadow-sm">
-            <img src="/logo.jpg" alt="Jeevansparsh Logo" className="w-full h-full object-contain" />
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl flex items-center justify-center overflow-hidden shadow-md">
+            <img src="/logo.jpg" alt="Jeevansparsh Logo" className="w-full h-full object-cover" />
           </div>
         </div>
         

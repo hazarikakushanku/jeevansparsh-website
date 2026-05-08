@@ -11,7 +11,9 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-5">
             <Link href="/" className="flex items-center gap-2">
-              <Activity className="text-jeevansparsh-yellow flex-shrink-0" size={26} />
+              <div className="w-10 h-10 rounded-xl flex-shrink-0 flex items-center justify-center overflow-hidden shadow-sm">
+                <img src="/logo.jpg" alt="Jeevansparsh Logo" className="w-full h-full object-cover" />
+              </div>
               <span className="text-xl font-bold tracking-tight text-white">Jeevansparsh</span>
             </Link>
             <p className="text-blue-200 text-sm leading-relaxed max-w-lg">
