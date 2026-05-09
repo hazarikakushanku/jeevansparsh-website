@@ -23,7 +23,7 @@ export default function Footer() {
               <a href="#" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-jeevansparsh-yellow hover:text-jeevansparsh-blue transition-colors">
                 <Facebook size={16} />
               </a>
-              <a href="https://www.instagram.com/p/DRE2O-MCbiz/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-jeevansparsh-yellow hover:text-jeevansparsh-blue transition-colors">
+              <a href="https://shorturl.at/AFdd8" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-jeevansparsh-yellow hover:text-jeevansparsh-blue transition-colors">
                 <Instagram size={16} />
               </a>
               <a href="#" className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-jeevansparsh-yellow hover:text-jeevansparsh-blue transition-colors">
